@@ -2,14 +2,43 @@
   "name": "thescarnmanagerui",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralPallas/TheScarnManagerUI.git"
+  },
+  "homepage": "https://team.hoboslayers.com/",
+  "description": "A ReactJS front-end for The Scarn Manager application",
+  "keywords": [],
+  "author": "GeneralPallas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GeneralPallas/TheScarnManagerUI/issues"
+  },
+  "contributors": [
+    "GeneralPallas (https://github.com/GeneralPallas)"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "node server.js -p $PORT"
   },
   "dependencies": {
-    "next": "9.0.5",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "connect-ensure-login": "^0.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "express-session": "^1.16.2",
+    "next": "^9.0.5",
+    "passport": "^0.4.0",
+    "passport-twitch": "^1.0.3",
+    "passport-twitter": "^1.0.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "engines": {
+    "node": ">=11.12.0",
+    "npm": ">=6.4.1",
+    "yarn": ">=1.15.2"
   }
 }
