@@ -1,2 +1,2 @@
-# TheScarnManagerUI
-The front-end for The Scarn Manager application
+Project Hercules - UI
+The front-end for the Project Hercules application.
